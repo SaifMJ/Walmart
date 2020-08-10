@@ -1,0 +1,176 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header {
+	background-image: url(Webpage_background.jpg);
+	
+	background-size: cover;
+	
+	 background-repeat: repeat;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.9s ease;
+
+}
+
+ul li a:hover {
+	background-color: white;
+	color: rgb(0,0,0);
+}
+.logo img {
+	float: left;;
+	width: 300px;
+	height: auto;
+
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+
+}
+.active a {
+	background-color: white;
+	color: rgb(0,0,0);
+
+}
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1 {
+	color: rgb(54, 217, 119);
+	font-size: 70px;
+}
+.button {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn {
+	border: 1px solid white;
+	padding: 10px 30px; 
+	color: green;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: white;
+	color: rgb(0,0,0);
+	transition: 0.9s ease;
+
+}
+.footer {
+	color: white;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#name
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#password
+{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.Ulabel
+{
+
+position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	color: rgb(54, 217, 119);
+	font-size: 30px;
+}
+
+.Plabel
+{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.submit
+{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.submit:hover {
+	background-color: black;
+	color: white;
+	transition: 0.9s ease;
+}
+
+.Logintitle h2 {
+	color: rgb(54, 217, 119);
+	font-size: 50px;
+}
+
+.Logintitle {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
